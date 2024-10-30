@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fe26a4 0%, #561df4 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .register-box {
+    background-color: #219ebc;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  .registro {
+    background-color: #1a202c98;
+    border-radius: 50px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 800px;
+    max-width: 100%;
+  }
+  
+  .salir-button {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: #ff3b30;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #1c0033;
+    color: white;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .submit-button, .back-button {
+    background-color: #4c00cc;
+    color: white;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover, .back-button:hover {
+    background-color: #6b00ff;
+  }
+  
+  .modal {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

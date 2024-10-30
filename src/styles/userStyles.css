@@ -1,0 +1,126 @@
+/* Mantener fondo general */
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #8ecae6 0%, #023047 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  /* Ajuste al fondo oscuro de la caja */
+  .registro-box {
+    background-color: #023047; 
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); 
+    width: 600px;
+    text-align: center;
+    position: relative; 
+  }
+  
+  /* Resto de estilos */
+  h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: #0e0e33;
+    color: white;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-register {
+    background-color: #ffb703;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-register:hover {
+    background-color: #c18c00;
+  }
+  
+  .btn-exit {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior del contenedor */
+    right: 10px; /* Ajusta la distancia desde la derecha del contenedor */
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-exit:hover {
+    background-color: #e58b24;
+  }
+  
+  /* Estilos para la tabla */
+  .registro-table {
+    color: #ffffff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-spacing: 0; 
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px; 
+    overflow: hidden;
+    border: 2px solid white;
+  }
+  .registro-table thead {
+    background: #023047;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .registro-table th,
+  .registro-table td {
+    text-align: center;
+    border-right: 2px solid white;
+  }
+  
+  .registro-table th {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .registro-table td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: solid 1px white;
+  }
+  

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #8ecae6 0%, #023047 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegurarse de que el body ocupe toda la altura de la pantalla */
+    margin: 0;
+    color: white;
+  }
+  
+  /* Contenedor principal */
+  .admin-container {
+    background: #023047; /* Fondo oscuro */
+    border-radius: 10px;
+    padding: 30px;
+    width: 1000px; /* Aumentar el ancho */
+    max-width: 1400px; /* Limitar el ancho máximo */
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    color: #ffffff;
+  }
+  
+  /* Título */
+  .admin-header h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Botón de salir */
+  .btn-salir {
+    font-size: 24px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn-salir:hover {
+    background-color: #e53935;
+  }
+  
+  /* Contenedor de la tabla */
+  .table-container {
+    width: 100%;
+    margin-top: 20px;
+    overflow-y: auto; /* Permitir desplazamiento vertical */
+    max-height: 400px; /* Limitar la altura máxima del contenedor */
+  }
+  
+  /* Encabezado de la tabla */
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8ecae6;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* Cuerpo de la tabla */
+  .table-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Fila de la tabla */
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8ecae6;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 10px;
+  }
+  
+  /* Celda de la tabla */
+  .table-cell {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+  }
