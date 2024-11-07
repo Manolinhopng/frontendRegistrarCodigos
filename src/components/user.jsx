@@ -61,7 +61,7 @@ function User() {
   const obtenerCodigos = async () => {
     try {
       const response = await fetch(
-        "http://localhost:4000/api/users/obtenerCodigo",
+        "https://backend-registrar-codigos.vercel.app/api/users/obtenerCodigo",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
