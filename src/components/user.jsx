@@ -19,7 +19,7 @@ function User() {
 
     try {
       const response = await fetch(
-        "http://localhost:4000/api/users/verificarCodigo",
+        "https://backend-registrar-codigos.vercel.app/api/users/verificarCodigo",
         {
           method: "POST",
           headers: {
