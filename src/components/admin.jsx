@@ -10,7 +10,7 @@ function Admin() {
     const fetchCodesInfo = async () => {
       try {
         const response = await fetch(
-          "http://localhost:4000/api/users/obtenerCodigos"
+          "https://backend-registrar-codigos.vercel.app/api/users/obtenerCodigos"
         );
 
         if (!response.ok) {
