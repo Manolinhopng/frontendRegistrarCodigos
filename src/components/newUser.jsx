@@ -35,7 +35,7 @@ function Register() {
     };
 
     try {
-      const response = await fetch("http://localhost:4000/api/users/register", {
+      const response = await fetch("https://backend-registrar-codigos.vercel.app/api/users/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
