@@ -12,7 +12,7 @@ function NewAdmin() {
 
     try {
       const response = await fetch(
-        "http://localhost:4000/api/users/registerAdmin",
+        "https://backend-registrar-codigos.vercel.app/api/users/registerAdmin",
         {
           method: "POST",
           headers: {
